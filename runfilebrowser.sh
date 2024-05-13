@@ -4,5 +4,5 @@ docker run \
     -v /root/filebrowser/conf/settings.json:/config/settings.json \
     -e PUID=$(id -u) \
     -e PGID=$(id -g) \
-    -p 8080:80 \
+    -p 8085:80 \
     filebrowser/filebrowser:s6
